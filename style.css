@@ -57,6 +57,7 @@ body {
     width: 100%;
     position: relative;
     
+    
 }
 .app-picture img{
     width: 100%;
@@ -69,7 +70,7 @@ body {
 }
 .app-photos{
     width: 30%;
-    left: 35%;
+    left: 45%;
     margin-top: 4%;
     position: relative;
 }
