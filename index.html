@@ -1,33 +1,34 @@
-<html>
-<head> 
-    <title>Sito Github Orari lezioni - Media Art by Slayx</title>
-    <link rel="stylesheet" href="style.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=yes initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Media Art - Orari Lezioni</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="banner"> 
-            <div class="app-text">
-                <h2>Media Art - Class Schedule (last update: 17/11/2022)</h2>
-            </div>
+<div class="container">
+    <div class="slider">
+        <div class="slide slide-1 active">
+            <h4 class="slide-title-A">First Semester - Week A</h4>
+            <h4 class="slide-title-B">First Semester - Week B</h4>
         </div>
-        <div id="box-1"></div>
-        <div class="app-picture">
-            <br />
-            <h3> First Semester - Week A</h3>
-            <br />
-            <img src="./images/settimana-a.png">
-            <br></br>
-            <h3> First Semester - Week B <h3>
-            <br />
-            <img src="./images/settimana-b.png">
-            <br></br>
-        </div>
-        <div class="app-photos">
-            <div id="box-2">
-                <img src="./images/photo1.jpg">
-                <img src="./images/photo2.jpg">
-            </div>
+        <div class="slide slide-2">
+            <h4 class="slide-title">Gallery</h4>
         </div>
     </div>
+    <div class="buttons">
+        <div class="arrow" id="arrow-left">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="arrow" id="arrow-right">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+    </div>
+</div>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>
