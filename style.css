@@ -97,8 +97,9 @@ body {
     margin-top: 15px;
     margin-bottom: 10px;
     font-family: Cursive;
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: bold;
+    margin-left: 50px;
 }
 .footer .wave{
     position: absolute;
@@ -157,17 +158,229 @@ body {
     }
 }
 
+@media screen and (min-width: 320px) and (max-width: 350px) {
+    .banner{
+        width: 60%;
+        height: 4%;
+        top: 2%;
+        left: 10px;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        z-index: 1;
+    }
+    .app-text h2{
+        font-size: 70%;
+        width: 300%;
+        height: 2.5%;
+        margin-left: 0px;
+        z-index: 1;
+        display: flex;
+    }
+    .app-picture{
+        width: 50%;
+        top: 0%;
+        left: 10px;
+        position: absolute;
+    }
+    .app-picture img{
+        width: 187%;
+        
+    }
+    .app-picture h3{
+        font-size: 10px;
+        position: relative;
+        color: rgba(255, 255, 255, 0.897)
+    }
+    #box-2 {
+        border: 5px solid #000000;
+        border-radius: 5px 5px 5px 5px;
+        width: 120%;
+        left: -35%;
+        margin-top: 0%;
+        position: absolute;
+        display: none;
+    }
+    .app-photos .box-hide .img3{
+        width: 140%;
+        top: 880%;
+        left: -140%;
+        position: absolute;
+        border-radius: 5%;
+        display: flex;
+    }
+    .app-photos .box-hide .img4{
+        width: 100%;
+        top: 880%;
+        left: 72%;
+        position: absolute;
+        border-radius: 5%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 400px) {
+    .banner{
+        width: 60%;
+        height: 4%;
+        top: 2%;
+        left: 10px;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        z-index: 1;
+    }
+    .app-text h2{
+        font-size: 70%;
+        width: 300%;
+        height: 2.5%;
+        margin-left: 0px;
+        z-index: 1;
+        display: flex;
+    }
+    .app-picture{
+        width: 50%;
+        top: 0%;
+        left: 10px;
+        position: absolute;
+    }
+    .app-picture img{
+        width: 188%;
+        
+    }
+    .app-picture h3{
+        font-size: 10px;
+        position: relative;
+        color: rgba(255, 255, 255, 0.897)
+    }
+    #box-2 {
+        border: 5px solid #000000;
+        border-radius: 5px 5px 5px 5px;
+        width: 120%;
+        left: -35%;
+        margin-top: 0%;
+        position: absolute;
+        display: none;
+    }
+    .app-photos .box-hide .img3{
+        width: 140%;
+        top: 1000%;
+        left: -140%;
+        position: absolute;
+        border-radius: 5%;
+        display: flex;
+    }
+    .app-photos .box-hide .img4{
+        width: 100%;
+        top: 1000%;
+        left: 72%;
+        position: absolute;
+        border-radius: 5%;
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+    .banner{
+        width: 60%;
+        height: 4%;
+        top: 2%;
+        left: 10px;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        z-index: 1;
+    }
+    .app-text h2{
+        font-size: 70%;
+        width: 300%;
+        height: 2.5%;
+        margin-left: 0px;
+        z-index: 1;
+        display: flex;
+    }
+    .app-picture{
+        width: 50%;
+        top: 0%;
+        left: 10px;
+        position: absolute;
+    }
+    .app-picture img{
+        width: 188%;
+        
+    }
+    .app-picture h3{
+        font-size: 10px;
+        position: relative;
+        color: rgba(255, 255, 255, 0.897)
+    }
+    #box-2 {
+        border: 5px solid #000000;
+        border-radius: 5px 5px 5px 5px;
+        width: 120%;
+        left: -35%;
+        margin-top: 0%;
+        position: absolute;
+        display: none;
+    }
+    .app-photos .box-hide .img3{
+        width: 165%;
+        top: 1300%;
+        left: -140%;
+        position: absolute;
+        border-radius: 5%;
+        display: flex;
+    }
+    .app-photos .box-hide .img4{
+        width: 100%;
+        top: 1300%;
+        left: 72%;
+        position: absolute;
+        border-radius: 5%;
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .app-photos .box-hide{
+        display: none;
+        z-index: -1;
+    }
+    .app-photos .box-hide{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 840px) {
+    .banner{
+        width: 60%;
+        height: 4%;
+        top: 2%;
+        left: 10px;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        z-index: 1;
+    }
+    .app-text h2{
+        font-size: 100%;
+        width: 300%;
+        height: 2.5%;
+        margin-left: 0px;
+        z-index: 1;
+        display: flex;
+    }
+}
+
+
 @media only screen and (min-width: 1024px) {
     #box-2 {
         border: 5px solid #000000;
         border-radius: 5px 5px 5px 5px;
         width: 60%;
         left: 110%;
-        transform: translateY(-10px);
+        transform: translateY(-3px);
         position: absolute;
     }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1130px) {
     #box-2 {
         border: 5px solid #000000;
         border-radius: 5px 5px 5px 5px;
