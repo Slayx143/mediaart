@@ -20,7 +20,7 @@ body {
     border: 5px solid #000000;
     border-radius: 5px 5px 5px 5px;
     background-color: rgba(0,0,0);
-    width: 76.3%;
+    width: 76.3%;   /* 76-3% */
     height: 0.80%;
     left: 0.5%;
     top: 0.88%;
@@ -55,6 +55,7 @@ body {
 }
 .box-picture{
     width: 100%;
+    top: -3vmax;
     position: relative;
     
     
