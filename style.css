@@ -292,7 +292,7 @@ body {
     }
     .app-photos .box-hide .img3{
         width: 140%;
-        top: 1000%;
+        top: 40vmax;
         left: -140%;
         position: absolute;
         border-radius: 5%;
@@ -352,8 +352,8 @@ body {
     }
     .app-photos .box-hide .img3{
         width: 165%;
-        top: 1300%;
-        left: -140%;
+        top: 45vmax;
+        left:-140%;
         position: absolute;
         border-radius: 5%;
         display: flex;
