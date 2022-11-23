@@ -144,27 +144,41 @@ body {
     z-index: 1000;
     opacity: 1;
     bottom: 0;
-    animation: animateWave 4s linear infinite;
+    -webkit-animation: animateWave 4s linear infinite;
+            animation: animateWave 4s linear infinite;
 }
 .footer .wave#wave2{
     z-index: 999;
     opacity: 0.5;
     bottom: 10px;
-    animation: animateWave_02 4s linear infinite;
+    -webkit-animation: animateWave_02 4s linear infinite;
+            animation: animateWave_02 4s linear infinite;
 
 }
 .footer .wave#wave3{
     z-index: 1000;
     opacity: 0.2;
     bottom: 15px;
-    animation: animateWave 3s linear infinite;
+    -webkit-animation: animateWave 3s linear infinite;
+            animation: animateWave 3s linear infinite;
 }
 .footer .wave#wave4{
     z-index: 999;
     opacity: 0.7;
     bottom: 20px;
-    animation: animateWave_02 3s linear infinite;
+    -webkit-animation: animateWave_02 3s linear infinite;
+            animation: animateWave_02 3s linear infinite;
 
+}
+@-webkit-keyframes animateWave{
+    0%
+    {
+        background-position-x: 1000px;
+    }
+    100%
+    {
+        background-position-x: 0px;
+    }
 }
 @keyframes animateWave{
     0%
@@ -174,6 +188,16 @@ body {
     100%
     {
         background-position-x: 0px;
+    }
+}
+@-webkit-keyframes animateWave_02{
+    0%
+    {
+        background-position-x: 0px;
+    }
+    100%
+    {
+        background-position-x: 1000px;
     }
 }
 @keyframes animateWave_02{
@@ -418,7 +442,7 @@ body {
         transform: translateY(-10px);
         position: absolute;
     }
-    @media only screen and (min-width: 1800px) {
+@media only screen and (min-width: 1800px) {
         #box-2 {
             border: 5px solid #000000;
             border-radius: 5px 5px 5px 5px;
