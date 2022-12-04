@@ -62,7 +62,7 @@ body {
 }
 .app-picture img{
     width: 100%;
-    
+    display: flex;
 }
 .app-picture h3{
     font-size: 15px;
@@ -236,7 +236,7 @@ body {
         position: absolute;
     }
     .app-picture img{
-        width: 187%;
+        width: 120%;
         
     }
     .app-picture h3{
@@ -297,7 +297,10 @@ body {
         position: absolute;
     }
     .app-picture img{
-        width: 188%;
+        width: 140%;
+        
+    }.app-picture .img .calendario{
+        width: 100px;
         
     }
     .app-picture h3{
