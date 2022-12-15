@@ -6,7 +6,7 @@
 body {
     display: flex;
     justify-content: flex-end;
-    height: 100vmax;
+    height: 150vmax;
     align-items: flex-end;
 }
 
