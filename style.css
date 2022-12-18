@@ -1,5 +1,5 @@
 :root{
-    --color-primary: #1d4497;
+    --color-primary: #26408B;
     --color-primary-light: rgba(43, 148, 180, 0.336);
     --color-primary-variant: #378ace;
     --color-red: #ff1e4f;
@@ -11,7 +11,7 @@
     --color-gray-300: rgba(242, 242, 254, 0.3);
     --color-gray-200: rgba(242, 242, 254, 0.7);
     --color-white: #f2f2fe;
-    --color-bg: #0f206d;
+    --color-bg: #0F084B;
 
     --transition: all 300ms ease;
 
