@@ -370,6 +370,57 @@ CATEGORY POSTS PAGE
 
 
 
+/* ===========================================================================
+POP UP AL CARICAMENTO DEL SITO 
+==============================================================================
+
+.modal {
+    position: fixed;  Make the modal a fixed position element 
+    z-index: 1;  Set the z-index to ensure the modal appears above other elements 
+    left: 0;
+    top: 0;
+    width: 100%;  Set the width and height to fill the viewport 
+    height: 100%;
+    overflow: auto;  Add scrollbars if needed 
+    background-color: rgba(0,0,0,0.4);  Add a translucent background color 
+  }
+  
+  .modal img {
+    margin: auto;
+    margin-top: 11rem;  Center the image 
+    display: block;  Make the image a block element 
+    max-width: 30%;  Set the maximum width to 90% of the viewport 
+    max-height: 60%; Set the maximum height to 90% of the viewport 
+  }
+  .modal a{
+    margin: auto;
+    margin-top: 2rem; Center the image 
+    display: block;  Make the image a block element 
+margin-left: 48rem;
+font-size: x-large;
+font-weight: bold;
+  }  
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ===========================================================================
 MEDIA QUERIES (MEDIUM DEVICES: TABLETS)
